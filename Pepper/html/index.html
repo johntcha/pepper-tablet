@@ -1,0 +1,204 @@
+<!-- http://tp-epu.univ-savoie.fr/phpMyAdmin/    pour les tables Personnels et Salles-->
+<!-- http://tp-epu.univ-savoie.fr/~mon_login/Pepper%20PHP/      pour les fichiers php-->
+
+<html>
+	<head>
+		<title>Pepper Polytech Annecy-Chambéry</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta http-equiv="Cache-control" content="no-cache">
+		
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/main_Pepper.css" />
+		<link rel="stylesheet" href="assets/css/fonts.css" />
+		
+	</head>
+	
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<img class="icon" src="images/logo_transparent.png"></img>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>Polytech Annecy-Chambéry</h1>
+								<p>" En permanence, l’école travaille à l’amélioration de ses formations pour répondre aux besoins des entreprises et de la société, afin de relever les défis de demain."
+								<br>Philippe Bolon, Directeur Polytech Annecy-Chambéry</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#ecole">Ecole</a></li>
+								<li><a href="#campus">Campus</a></li>
+								<li><a href="#guide">Guide moi Pepper !</a></li>
+								<li><a href="#international">International</a></li>
+								<li><a href="#about">A propos</a></li> <!-- ici nos nom prenom ect... -->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Ecole -->
+							<article id="ecole" class='article'>
+								<p>UNE ÉCOLE D'INGÉNIEURS PUBLIQUE
+									Polytech Annecy-Chambéry, l'école d'ingénieurs de l'Université Savoie Mont Blanc, fait partie du Réseau Polytech. Une double garantie pour les élèves qui bénéficient d'enseignements adossés à une recherche universitaire et d'un diplôme portant la marque "Polytech".</p>
+
+								<p>UNE FORMATION INGÉNIEUR CERTIFIÉE CTI ET ISO 9001
+									Polytech Annecy-Chambéry est habilitée par la CTI - Commission des Titres d'Ingénieur - à délivrer le diplôme d'ingénieur.</p>
+
+								<p>Les formations initiales sous statut étudiant de Polytech Annecy-Chambéry sont certifiées ISO 9001.</p>
+							</article>
+							
+
+						<!-- Campus -->
+							<article id="campus" class='article'>
+								<h2 class="major">Campus</h2>
+								<p> ACCÈS SITE D'ANNECY
+5 CHEMIN DE BELLEVUE, 74940 ANNECY-LE-VIEUX</p>
+							</article>
+
+						<!-- Guide -->
+							<article id="guide" class='article'>
+								<h2 class="major">Où voulez-vous aller ?</h2>
+								<section>
+									<div class="split">
+										<div class="left">
+											<ul id="menu-guide">
+												<a href="#link-Enseignants"><li class="collapsible-header"><div class="left-link">Personnels enseignants</div><div class="right-link"><i class="material-icons">chevron_right</i></div></li></a>
+												<a href="#link-Personnels-administratif"><li class="collapsible-header"><div class="left-link">Personnels administratif</div><div class="right-link"><i class="material-icons">chevron_right</i></div></li></a>
+												<a href="#link-Autre-personnels"><li class="collapsible-header"><div class="left-link">Autre personnels</div><div class="right-link"><i class="material-icons">chevron_right</i></div></li></a>
+												<a href="#link-Salles-administrative"><li class="collapsible-header"><div class="left-link">Salles administrative</div><div class="right-link"><i class="material-icons">chevron_right</i></div></li></a>
+												<a href="#link-Salles-cours"><li class="collapsible-header"><div class="left-link">Salles de cours / TD</div><div class="right-link"><i class="material-icons">chevron_right</i></div></li></a>
+												<a href="#link-Salle-de-TP"><li class="collapsible-header"><div class="left-link">Amphithéâtre</div><div class="right-link"><i class="material-icons">chevron_right</i></div></li></a>
+												<a href="#link-Salles-de-cours"><li class="collapsible-header"><div class="left-link">Salles informatique / TP</div><div class="right-link"><i class="material-icons">chevron_right</i></div></li></a>
+												<a href="#link-Salle-de-projets"><li class="collapsible-header"><div class="left-link">Salle de projets</div><div class="right-link"><i class="material-icons">chevron_right</i></div></li></a>
+												<a href="#link-Salles-de-clubs"><li class="collapsible-header"><div class="left-link">Salles de clubs</div><div class="right-link"><i class="material-icons">chevron_right</i></div></li></a>
+												<a href="#link-Autre"><li class="collapsible-header"><div class="left-link">Salles autre</div><div class="right-link"><i class="material-icons">chevron_right</i></div></li></a>
+											</ul>
+										</div>		
+										<div class="right">
+											<div id="link-Enseignants" class="table-wrapper table100-body js-pscroll">	
+												<table class="alt">
+													<thead>
+														<tr>
+															<th class="column1 table-title">Nom</th>
+															<th class="column2 table-title">Description</th>
+															<th class="column3 table-title">Localisation</th>
+															<th class="column4 table-title">S'y rendre ?</th>
+														</tr>
+													</thead>
+													<tbody id="table-enseignants"></tbody>
+												</table>	
+											</div>
+											
+											<div id="link-Personnels-administratif" class="table-wrapper table100-body js-pscroll">	
+												<table class="alt">
+													<thead>
+														<tr>
+															<th class="column1 table-title">Nom</th>
+															<th class="column2 table-title">Description</th>
+															<th class="column3 table-title">Localisation</th>
+															<th class="column4 table-title">S'y rendre ?</th>
+														</tr>
+													</thead>
+													<tbody id="table-personnels-administratif"></tbody>
+												</table>	
+											</div>
+											
+											<div id="link-Autre-personnels" class="table-wrapper table100-body js-pscroll">	
+												<table class="alt">
+													<thead>
+														<tr>
+															<th class="column1 table-title">Nom</th>
+															<th class="column2 table-title">Description</th>
+															<th class="column3 table-title">Localisation</th>
+															<th class="column4 table-title">S'y rendre ?</th>
+														</tr>
+													</thead>
+													<tbody id="table-autre-personnels"></tbody>
+												</table>	
+											</div>
+											
+											<div id="link-Salles-administrative" class="table-wrapper table100-body js-pscroll">	
+												<table class="alt">
+													<thead>
+														<tr>
+															<th class="column1 table-title">Nom</th>
+															<th class="column2 table-title">Description</th>
+															<th class="column3 table-title">Localisation</th>
+															<th class="column4 table-title">S'y rendre ?</th>
+														</tr>
+													</thead>
+													<tbody id="table-salles-administrative"></tbody>
+												</table>	
+											</div>
+											
+										</div>
+									</div>
+								</section>				
+							</article>
+
+						<!-- Internationnal -->
+							<article id="international" class='article'>
+								<h2 class="major">International</h2>
+								<p>LE MONDE VOUS ATTEND !
+La découverte de l'autre est indispensable à l'ingénieur pour occuper des fonctions à responsabilités dans un contexte international. Vivre une expérience à l'étranger vous permettra de développer votre capacité de compréhension et d'adaptation à des environnements multiculturels.</p>
+								<p>
+									STAGES À L'ÉTRANGER
+Le service relations internationales de l’école œuvre au quotidien pour permettre aux élèves en formation ingénieur d’effectuer au moins une mobilité à l’international pendant leurs parcours d’études. Ainsi chaque élève acquiert une expérience à l’étranger
+								</p>
+							</article>
+
+						<!-- About -->
+							<article id="about" class='article'>
+								<h2 class="major">A propos</h2>
+								<section>
+									Equipe : Colpaert Antoine, Drappier Mathias, Loutté Alexandre, Malfait Nicolas, Picardat Priscillia, Remmo Nawar et Tcha John
+
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">Polytech Annecy-Chambéry. Projet PEPPER</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/materialize.min.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/main_Pepper.js"></script>
+			<script src="assets/js/robotutils.js"></script> <!-- script du robot -->
+			
+			<script>
+				var timer = null;
+
+				function showError(message) {
+					if (timer !== null) {
+						// Clear previous timeout:
+						clearTimeout(timer);
+						timer = null;
+					}
+					var errorElement = document.getElementById("error");
+					errorElement.innerHTML = message;
+					errorElement.style.display = 'block';
+					timer = setTimeout(function(){ errorElement.style.display = 'none'; }, 60000);
+				}
+			
+			</script>
+		</body>
+</html>
